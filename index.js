@@ -17,7 +17,7 @@ const client = twilio(accountSid, authToken);
 
 const ALICE_NUMBER = process.env.ALICE_NUMBER; // Target destination for Alice
 const BOB_NUMBER = process.env.BOB_NUMBER; // Target destination for Bob
-const SERVER_URL = "https://twilio-voice-ashen.vercel.app";
+const SERVER_URL = "https://twilio-voice-eta.vercel.app";
 
 app.get("/", (req, res) => {
   res.json({ message: "APP is running on Vercel!" });
